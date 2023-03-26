@@ -44,7 +44,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	if (check_mode(*stack) == STACK) /*STACK mode insert at front */
 	{
 		tmp = (*stack)->next;
-		new->prev - *stack;
+		new->prev = *stack;
 		new->next = tmp;
 		if (tmp)
 			tmp->prev = new;

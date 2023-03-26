@@ -20,7 +20,7 @@ char *get_int(int num)
 	char *ret;
 
 	temp = _abs(num);
-	length - get_numbase_len(temp, 10);
+	length = get_numbase_len(temp, 10);
 
 	if (num < 0 || num_l < 0)
 		length++; /* negative sign */
