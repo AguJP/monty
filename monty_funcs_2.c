@@ -22,7 +22,7 @@ void monty_add(stack_t **stack, unsigned int line_number)
 		return;
 	}
 
-	(*stack)->next->next->>n += (*stack)->next->n;
+	(*stack)->next->next->n += (*stack)->next->n;
 	monty_pop(stack, line_number);
 }
 
