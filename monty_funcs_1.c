@@ -29,7 +29,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 		return;
 	}
 
-	for (i = 0; optoks[1][i]; i++)
+	for (i = 0; op_toks[1][i]; i++)
 	{
 		if (op_toks[1][i] == '-' && i == 0)
 			continue;

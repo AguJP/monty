@@ -36,7 +36,7 @@ int malloc_error(void)
  */
 int f_open_error(char *filename)
 {
-	fpritnf(stderr, "Error: Can't open file %s\n", filename);
+	fprintf(stderr, "Error: Can't open file %s\n", filename);
 	return (EXIT_FAILURE);
 }
 
